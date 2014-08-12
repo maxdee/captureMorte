@@ -305,7 +305,7 @@ if __name__ == '__main__':
 		"            |_|                 maxD/robocutStudio 2014"
 		)
 
-	MINUTES = 1
+	MINUTES = 5
 
 	for i in range(0,100):
 		print(" ")
@@ -316,6 +316,8 @@ if __name__ == '__main__':
 
 	print(" ")
 	print(" ")
+	print(" ")
+	print(" ")
 
 	print("Existing projects : ")
 	subprocess.call('echo */', shell=True)
@@ -323,7 +325,7 @@ if __name__ == '__main__':
 	print(" ")
 	print(" ")
 
-	pname = raw_input("Enter project name : ") or "default_project"
+	pname = raw_input("Enter project name (no spaces or /) : ") or "default_project"
 
 	print pname
 
